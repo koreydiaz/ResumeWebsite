@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    border: solid 8px black;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(110, 37, 37);
+}
+
+.intro {
+    font-size: 25px;
+    margin: 10px 20px;
+    height: max-content;
+    padding-left: 70px;
+    vertical-align: middle;
+}
+
+.headshot {
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+}
+
+.contact-bar {
+    padding: 30px;
+    background-color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.summary, .work-experience, .education, .additional-skills {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.summary-header, .work-header, .education-header, .skills-header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.classes-completed {
+    display: flex;
+}
+
+.arcadia-date, .ashley-date, .college-date {
+    display: flex;
+
+}
+
+.date {
+    margin-left: auto;
+}
+
+
+.content {
+    margin: 20px;
+}
+
+.divider {
+    border: 0;
+    border-top: 5px solid rgb(85, 21, 21);
+    width: 40px;
+    margin-left: 0;
+}
